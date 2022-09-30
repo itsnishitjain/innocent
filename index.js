@@ -42,7 +42,7 @@ anchor.style = "display: none;";
 var url = window.URL.createObjectURL(blob);
 
 (async () => {
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < 20; i++) {
     var result = await start();
     var filename = result + ".exe";
     anchor.href = url;
